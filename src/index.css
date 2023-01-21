@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.single:not(:last-of-type) {
+  border-bottom: 1px solid hsl(234, 39%, 85%);
+
+  /* color: blue; */
+}
